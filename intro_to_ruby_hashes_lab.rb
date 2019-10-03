@@ -56,7 +56,7 @@ def monopoly_with_fourth_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-  monopoly =  {
+monopoly =  {
   :railroads=>
   {
     :pieces=>4,
@@ -71,10 +71,24 @@ def monopoly_with_fourth_tier
     {
       :reading_railroad=>
       {
-        
+        "mortgage_value"=>"$100"
+      },
+      :pennsylvania_railroad=>
+      {
+        "mortgage_value"=>"$200"
+      },
+      :b_and_o_railroad=>
+      {
+        "mortgage_value"=>"$400"
+      },
+      :shortline=>
+      {
+        "mortgage_value"=>"$800"
       }
     }
   }
 }
+
+
 
 end
